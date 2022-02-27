@@ -9,19 +9,23 @@ section {
     align-items: center;
 }
 .collapsible {
-    background-color: rgb(240, 142, 142);
+    /*background-color: rgb(240, 142, 142);*/
     color: rgb(0, 0, 0);
     cursor: crosshair;
     padding: 18px;
-    width: 50%;
+    width: 25%;
     border-style: double;
     text-align: center;
     outline: none;
     font-size: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, rgb(197, 146, 146) , rgb(126, 50, 50));
   }
   
   .active, .collapsible:hover {
-    background-color: rgb(200, 235, 106);
+    /*background-color: rgb(200, 235, 106);*/
+    background-image: linear-gradient(to right, rgb(141, 104, 104) , rgb(90, 37, 37));
   }
   
   .content {
