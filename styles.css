@@ -1,22 +1,63 @@
 html {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(background.jpg);
+    color: azure;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .collapsible {
-    background-color: red;
-    color: black;
+    background-color: rgb(240, 142, 142);
+    color: rgb(0, 0, 0);
     cursor: crosshair;
     padding: 18px;
-    width: 100%;
-    border: none;
+    width: 50%;
+    border-style: double;
     text-align: center;
     outline: none;
     font-size: 15px;
-}
-
-.content {
+  }
+  
+  .active, .collapsible:hover {
+    background-color: rgb(200, 235, 106);
+  }
+  
+  .content {
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: aliceblue;
+  }
+  table {
+    color: #000000;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    text-align: center;
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  tr:nth-child(odd) {
+    background-color: #868686;
+  }
 
-}
+  .Player {
+      color: black;
+      text-align: center;
+      font-size: 32px;
+      padding: 5px;
+      border: 1px solid #000000;
+      background-color: aqua;
+  }
+  .prizes {
+      text-align: center;
+  }
